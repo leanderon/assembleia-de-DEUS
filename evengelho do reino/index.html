@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assembleia de Deus Evangelho do Reino</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #003366;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    nav {
+      background: #0055aa;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: -10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ffb300;
+    }
+    main {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 15px;
+      color: #003366;
+    }
+    section p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+    .pix-box {
+      background-color: #e0f7fa;
+      padding: 30px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .pix-key {
+      font-size: 1.6em;
+      font-weight: bold;
+      color: #00796b;
+      margin: 15px 0;
+      display: block;
+    }
+    .pix-box p {
+      margin-bottom: 15px;
+    }
+    .button {
+      display: inline-block;
+      background-color: #0055aa;
+      color: white;
+      text-decoration: none;
+      padding: 12px 30px;
+      font-size: 1.2em;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #003366;
+    }
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 1.1em;
+      margin-top: 40px;
+    }
+    footer p {
+      margin: 0;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+      main {
+        padding: 20px;
+      }
+      nav a {
+        font-size: 1em;
+        margin: 0 15px;
+      }
+      .pix-key {
+        font-size: 1.4em;
+      }
+      .button {
+        padding: 10px 25px;
+        font-size: 1em;
+      }
+    }
+
+    /* Estilo para a galeria de imagens */
+    #galeria {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #f0f0f0;
+    }
+    #galeria h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #003366;
+    }
+    .galeria-imagens {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .galeria-imagens img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Responsividade da galeria */
+    @media (max-width: 768px) {
+      .galeria-imagens {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 480px) {
+      .galeria-imagens {
+        grid-template-columns: 1fr;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Assembleia de Deus Evangelho do Reino</h1>
+  <p>Uma igreja para a família e para a glória de Deus</p>
+</header>
+
+<nav>
+  <a href="#sobre">Sobre</a>
+  <a href="#cultos">Horários</a>
+  <a href="#celula">Célula Resgate</a>
+  <a href="#pix">Ajude</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<main>
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>A Assembleia de Deus Evangelho do Reino é uma comunidade cristã dedicada à pregação do evangelho de Jesus Cristo, ao ensino da Palavra de Deus e ao cuidado com as famílias.</p>
+  </section>
+
+  <section id="cultos">
+    <h2>Horários de Culto</h2>
+    <ul>
+      <li><strong>Sábado:</strong> Culto das 19h às 21h</li>
+      <li><strong>Domingo:</strong> Culto das 19h às 21h</li>
+    </ul>
+  </section>
+
+  <section id="celula">
+    <h2>Célula de Oração - Célula Resgate</h2>
+    <p>A <strong>Célula Resgate</strong> é um momento especial de oração, intercessão e comunhão entre irmãos. Um espaço onde vidas são cuidadas e restauradas pelo poder da oração.</p>
+    <p>Participe conosco e sinta o mover de Deus!</p>
+  </section>
+
+  <section id="pix" class="pix-box">
+    <h2>Ajude a Igreja</h2>
+    <p>Sua contribuição é muito importante para a manutenção dos trabalhos da igreja e para alcançar mais vidas para Cristo.</p>
+    <p><strong>Faça uma oferta via PIX (Caixa Econômica):</strong></p>
+    <p class="pix-key">01072515318</p>
+    <a href="https://wa.me/5598970027364" class="button">Contribuir via WhatsApp</a>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p><strong>Endereço:</strong> Rua do Arame, nº 44 – Vila São Luís, Anjo da Guarda</p>
+    <p><strong>Telefones:</strong><br>
+      (98) 9700-27364<br>
+      (98) 98176-7466
+    </p>
+    <p><strong>Email:</strong> deilsons017@gmail.com</p>
+  </section>
+
+  <!-- Seção de Galeria de Imagens -->
+  <section id="galeria">
+    <h2>Galeria de Imagens</h2>
+    <div class="galeria-imagens">
+      <img src="img1.jpg" alt="Imagem 1 da Igreja">
+      <img src="img2.jpg" alt="Imagem 2 da Igreja">
+      <img src="img3.jpg" alt="Imagem 3 da Igreja">
+      <img src="img4.jpg" alt="Imagem 4 da Igreja">
+      <img src="img5.jpg" alt="Imagem 5 da Igreja">
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Assembleia de Deus Evangelho do Reino. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
